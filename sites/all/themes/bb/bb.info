@@ -1,0 +1,31 @@
+name = Blog Base
+description = The main theme for Blog Base.
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+;CSS
+stylesheets[all][] = css/reset.css
+; stylesheets[all][] = css/responsive-nav.css
+stylesheets[all][] = fonts/fonts.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/extras.css
+
+; JS
+; scripts[] = js/responsive-nav.js
+scripts[] = js/init.js
+; scripts[] = js/port.js
+
+; REGIONS
+regions[page_top] = Page top
+regions[header] = Header
+regions[nav_main] = Main Navigation
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[footer_main] = Footer Main
+regions[page_bottom] = Page bottom
+
+; PANEL LAYOUTS
+plugins[panels][layouts] = layouts

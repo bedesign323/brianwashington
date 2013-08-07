@@ -1,0 +1,13 @@
+<?php 
+
+
+/**
+* Implements hook_entity_info_alter().
+*/
+
+function custom_view_mode_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['tour_slide'] = array(
+    'label' => t('Tour Slide'),
+    'custom settings' => TRUE,
+  );
+}
