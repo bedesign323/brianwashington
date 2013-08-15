@@ -1,0 +1,8 @@
+filename = "TheArtworkofBrianWashington-2013-08-14T17-01-35"
+description = ""
+datestamp = "1376524897"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.23"
+sites[0][name] = "The Artwork of Brian Washington"
+sites[0][url] = "http://brianwashington.dev/"
